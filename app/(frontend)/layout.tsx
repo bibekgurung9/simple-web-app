@@ -1,6 +1,7 @@
 "use client"
 import Navbar from "@/components/navbar"
 import axios from "axios"
+import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 
 const FrontEndlayout = ({
@@ -8,6 +9,7 @@ const FrontEndlayout = ({
 } : {
   children: React.ReactNode
 }) => {
+  const router = useRouter();
   const [user, setUser] = useState("nothing");
   const [userEmail, setUserEmail ] = useState("");
 

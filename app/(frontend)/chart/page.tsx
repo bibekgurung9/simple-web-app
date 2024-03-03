@@ -1,7 +1,6 @@
 "use client"
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer, Tooltip } from 'recharts'; 
+import { PieChart, Pie, Tooltip } from 'recharts'; 
 import React, { useEffect, useState } from 'react'
-import { CategoryScale } from 'chart.js';
 
 const PiechartPage = () => {
   const [products, setProduct] = useState([]);

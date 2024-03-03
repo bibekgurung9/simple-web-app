@@ -55,7 +55,7 @@ const ProductPage = () => {
           <strong>Brand: {item.brand}</strong> 
           <strong>Category:  
             <Link 
-              href={'/product'}
+              href={'/products'}
               className='h-4 m-2 p-1.5 rounded-md bg-black text-white'
               >
             {item.category}

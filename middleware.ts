@@ -24,6 +24,6 @@ export const config = {
     '/home',
     '/login',
     '/products',
-    '/piechart'
+    '/piechart',
   ]
 }

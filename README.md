@@ -1,9 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+### Instructions
 
+To access and review the assessment on your local machine, please follow these steps:
+
+1. **Clone the Repository:**
+   Open a terminal or command prompt and use the following command to clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/bibekgurung9/simple-web-app
+   ```
+
+2. **Navigate to the Assessment Folder:**
+   Change into the directory where the repository has been cloned:
+
+   ```bash
+   cd simple-web-app
+   ```
+
+3. ** Install Dependencies **
+	Install dependacies in the terminal
+```
+	npm install 
+```
+
+4. ** Run Server **
 ```bash
 npm run dev
 # or
@@ -13,6 +34,8 @@ pnpm dev
 # or
 bun dev
 ```
+
+If you have any further instructions or encounter any issues, please feel free to let me know.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
